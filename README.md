@@ -28,5 +28,5 @@ PS C:\temp>
 ```
 NOTE: Although this can save the installable program, it cannot save anyuser information such as saved games or other user data. And if the app requires network support from the publisher that is also discontinued, then it's not likely that the reinstalled app will work. YMMV.
 
-Also, this does not sign the app with the publisher's actual key or counter-sign it with the Windows Store key. It signs it with a custom self-signed key. To reinstall your app, you will need first install the *.cer file into your Trusted Root Certificates Store. Just double clicn on the *.cer file and manually add it to the correct store. This requires administrator privileges. Once that is done, you can install the app with the PowerShell command Add-AppxPackage.
+Also, this does not sign the app with the publisher's actual key or counter-sign it with the Windows Store key. It signs it with a custom self-signed key. To reinstall your app, you will need first install the *.cer file into your Trusted Root Certificates Store. Just double click on the *.cer file and manually add it to the correct store. This requires administrator privileges. Once that is done, you can install the app with the PowerShell command Add-AppxPackage.
 
